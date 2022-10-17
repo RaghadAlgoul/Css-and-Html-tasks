@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task2</title>
+</head>
+<body>
+<b>Images in Tables</b>
+</hr>
+<p>what are favorite pets ?</p>
+<table border="1xp">
+  <tr>
+    <th>Pet Image </th>
+    <th>More facts about(as a link)</th>
+  </tr>
+  <tr>
+    <td><img src="C:\Users\dell\Desktop\images\pexels-helena-lopes-1996333.jpg"></td>
+    <td><a href="https://en.wikipedia.org/wiki/Horse">Horse</a>></td>
+  </tr>
+  <tr>
+    <td><img src="C:\Users\dell\Desktop\images\dogs.jfif"></td>
+    <td><a href="https://en.wikipedia.org/wiki/Dog">Dogs</a>></td>
+  </tr>
+  <tr>
+    <td><img src="C:\Users\dell\Desktop\images\cat.jfif"></td>
+    <td><a href="https://en.wikipedia.org/wiki/Cat">Cat</a>></td>
+  </tr>
+</table>
+
+
+
+</body>
+</html>
