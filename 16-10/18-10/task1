@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task1</title>
+  </head>
+  <body>
+    <form>
+        <fieldset>
+            <legend>RegForm</legend>
+        </fieldset>
+    </form>
+    
+  </body>
+</html>
