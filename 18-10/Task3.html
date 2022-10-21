@@ -2,122 +2,138 @@
 <html>
   <head>
     <title>CSS Cook book-Mozilla</title>
+    
   </head>
   <body>
-    <form align="center" padding-left="80px">
-        <h3>Account Information</h3>
-        <div>
-            <label for="name">Log in Name *</label>
-            <input type="text" id="name">
-        </div>
-        <br>
-        <div>
-            <label for="password">Password*</label>
-            <input type="password" id="password">
-        </div>
-        <br>
-        <div>
-            <label for="cpassword">Confirm Password *</label>
-            <input type="cpassword" id="cpassword">
-        </div>
-        <br>
-        <div>
-            <label for="email">Email* </label>
-            <input type="email" id="email">
-        </div>
-        <br>
-        <h3>Content Information</h3>
-        <br>
-        <div>
-            <label for="fname">First Name *</label>
-            <input type="text" id="fname">
-        </div>
-        <br>
-        <div>
-            <label for="lname">Last Name *</label>
-            <input type="text" id="lname">
-        </div>
-        <br>
-        <div>
-            <label for="address1">Address 1 *</label>
-            <input type="text" id="address1">
-        </div>
-        <br>
-        <div>
-            <label for="address2">Address 2*</label>
-            <input type="text" id="address2">
-        </div>
-        <br>
-        <div>
-            <label for="city">City *</label>
-            <input type="text" id="city">
-        </div>
-        <br>
-        <div >
-            <label for="state">State or Province*&emsp13; &emsp13; &emsp13;</label>
-            <select   id="state">
-              <option value="select" hidden>select..</option>
-              <option value="Irbid">Irbid</option>
-              <option value="Amman">Amman</option>
+    <div align="center" >
+    <form >
+        <table>
+            <tr>
+                <th colspan="2"><h3>Account Information</h3></th>
+            </tr>
             <br>
-            </select>
-        </div>
-        <br>
-        <div>
-            <label for="zip">Zip*</label>
-            <input type="text" id="zip">
-        </div>
-        <br>
-        <div>
-            <label for="country">Country*</label>
-            <input type="text" id="country">
-        </div>
-        <br>
-        <div>
-            <label>Gender*</label>
-            <input type="radio" id="country1">
-            <label for="country1">Male</label>
-            <input type="radio" id="country2">
-            <label for="country2">Female</label>
-        </div>
-        <br>
-        <h3>Misc. Information</h3>
-        <div>
-            <label for="state">Annual Household Income*</label>&emsp13; &emsp13; &emsp13;
-            <select id="annual">
-               <option value="select" hidden>select..</option>
-               <option value="e1">e1</option>
-               <option value="e2">e2</option>
-               <br>
-            </select>
-        </div>
-        <br>
-        <div >
-            <label >Interests  &emsp13; &emsp13;&emsp13; &emsp13; &emsp13;</label>
-            <input type="checkbox" id="s/f">
-            <label for="s/f">shopping/fashoin</label>
-            <input type="checkbox" id="sports">
-            <label for="sports">Sports</label>
-            <input type="checkbox" id="travel">
-            <label for="travel">Travel</label>
-        </div>
-        <br>
-        <div >
-            <label >Eye color  &emsp13; &emsp13; </label>
-            <input type="checkbox" id="red" >
-            <label for="red">Red</label>
-            <input type="checkbox" id="green">
-            <label for="green">Green</label>
-            <input type="checkbox" id="brown">
-            <label for="brown">Brown</label>
-            <input type="checkbox" id="blueG">
-            <label for="blueG">Blue Gold</label>
-        </div>
-        <br>
-        <input type="submit" id="submit"  value="Submit">
-        <input type="reset" id="reset"  value="Reset">
-
+            <tr>
+                <td><b><label for="name">Log in Name *</label></b></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td><b><label for="password">Password*</label></b></td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><b><label for="cpassword">Confirm Password *</label></b></td>
+                <td><input type="cpassword" id="cpassword"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><b><label for="email">Email* </label></b></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <br>
+            <tr>
+                <td colspan="2" align="center"><b><h3>Content Information</h3></b></td>
+            </tr>
+            <br>
+            <tr>
+                <td><b><label for="fname">First Name *</label></b></td>
+                <td><input type="text" id="fname"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><b><label for="lname">Last Name *</label></b></td>
+                <td><input type="text" id="lname"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><b><label for="address1">Address 1 *</label></b></td>
+                <td><input type="text" id="address1"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><b><label for="address2">Address 2*</label></b></td>
+                <td><input type="text" id="address2"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><b><label for="city">City *</label></b></td>
+                <td><input type="text" id="city"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><b><label for="state">State or Province*&emsp13; &emsp13; &emsp13;</label></b></td>
+                <td><select   id="state">
+                    <option value="select" hidden>select..</option>
+                    <option value="Irbid">Irbid</option>
+                    <option value="Amman">Amman</option>
+                  <br>
+                  </select></td>
+            </tr>
+            <br>
+            <tr>
+                <td><b><label for="zip">Zip*</label></b></td>
+                <td><input type="text" id="zip"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><b><label for="country">Country*</label></b></td>
+                <td><input type="text" id="country"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><b><label>Gender*</label></b></td>
+                <td><input type="radio" id="country1">
+                    <label for="country1">Male</label>
+                    <input type="radio" id="country2">
+                    <label for="country2">Female</label></td>
+            </tr>
+            <br>
+            <tr>
+                <td colspan="2" align="center"><b><h3>Misc. Information</h3></b></td>
+            </tr>
+            <br>
+            <tr>
+                <td><b><label for="state">Annual Household Income*</label></b></td>
+                <td><select id="annual">
+                    <option value="select" hidden>select..</option>
+                    <option value="e1">e1</option>
+                    <option value="e2">e2</option>
+                    <br>
+                 </select></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td><b><label >Interests </label></b></td>
+                <td><input type="checkbox" id="s/f">
+                    <label for="s/f">shopping/fashoin</label>
+                    <input type="checkbox" id="sports">
+                    <label for="sports">Sports</label>
+                    <input type="checkbox" id="travel">
+                    <label for="travel">Travel</label></td>
+            </tr>
+            <br>
+            <tr>
+                <td><b><label >Eye color</label></b></td>
+                <td><input type="checkbox" id="red" >
+                    <label for="red">Red</label>
+                    <input type="checkbox" id="green">
+                    <label for="green">Green</label>
+                    <input type="checkbox" id="brown">
+                    <label for="brown">Brown</label>
+                    <input type="checkbox" id="blueG">
+                    <label for="blueG">Blue Gold</label></td>
+            </tr>
+            <br>
+        </table>
+        
     </form>
-    
+    <br>
+    <br>
+    <input type="submit" id="submit"  value="Submit">
+    <input type="reset" id="reset"  value="Reset" >
+    </div>
   </body>
 </html>

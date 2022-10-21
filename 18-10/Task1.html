@@ -2,34 +2,74 @@
 <html>
   <head>
     <title>Task 1</title>
+    <style>
+      label{padding-right : 100px;}
+    </style>
   </head>
   <body>
     <form> 
         <fieldset>
           <legend><h2>RegForm</h2></legend>
-          <table border="1">
-            <tr>
-              <th><label for="name"><b>Name</b></label></th>
-              <th><input type="text" id="name"></th>
-            </tr>
-
-
-
-
-
-
-
-
-
-          </table>
+          <div>
+           <label for="name" >Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           <input type="text" id="name" >
+          </div>
           <br>
-          <pre><label for="comment">Comment           <textarea placeholder="Write here" id="comment" rows="4" cols="50"></textarea> </label></pre>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+          </div>
+          <br>
+          <div>
+            <label for="email">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" id="email">
+          </div>
+          <br>
+          <div>
+            <label for="date">Date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="date" id="email"></div>
+          <br>
+          <div>
+            <label for="phone">PhoneNo.</label>
+            <input type="number" id="phone">
+          </div>
+          <br>
+          <div>
+            <label for="file">Select File</label>
+            <input type="file" id="file">
+          </div>
+          <br>
+          <div>
+            <label >Gender &nbsp;&nbsp;</label>
+            <input type="radio" id="Female" name="gender">
+            <label for="Female" >Female</label>
+            <input type="radio" id="Male" name="gender">
+            <label for="Male" >Male</label>
+          </div>
+          <br>
+          <div>
+            <label >Language</label>
+            <input type="checkbox" id="L1" >
+            <label for="L1" >Hindi</label>
+            <input type="checkbox" id="L2" >
+            <label for="L2" >English</label>
+          </div>
+          <br>
+          <div>
+            <label for="course">Course&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select id="course">
+              <option value="cs">Cs</option>
+              <option value="cis">Cis</option>
+            </select>
+          </div>
+          <br>
+          <label for="comment">Comment </label>
+          <textarea placeholder="Write here" id="comment" rows="4" cols="50"></textarea>
           <br><br>
           <input type="button" value="Register Now">
           <input type="button" value="Refresh">
           
         </fieldset>
     </form>
-    
   </body>
 </html>
