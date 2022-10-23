@@ -18,3 +18,9 @@ td.DarkBlue {
 td.BabyBlue {
     color:rgb(50, 174, 227);
 }
+input{
+    margin-left: 1%;
+}
+#submitButton{
+    margin-left: 5%;
+}
