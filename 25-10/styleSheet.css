@@ -1,0 +1,28 @@
+
+img{ 
+    width: 250px;
+    height: 250px;
+}
+
+div.img{
+    display: inline-block;
+    padding-left: 10px;
+    margin: 5%;
+    
+}
+@media only screen and (min-device-width:481px)and (max-device-width:768px){
+    div.img{
+        display: inline-block;  
+    }
+    div.core{
+      padding: 20px;
+    }
+}
+
+@media only screen and (min-device-width:0)and (max-device-width:480px){
+    div.img{
+        display: block;  
+    }
+    
+   
+}
