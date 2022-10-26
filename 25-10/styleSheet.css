@@ -11,18 +11,28 @@ div.img{
     
 }
 @media only screen and (min-device-width:481px)and (max-device-width:768px){
+    
+    
+    
     div.img{
-        display: inline-block;  
+        width: 250px;
+         height:180px ;
+         display: inline-block;
+         margin: 7px 15px 7px 15px;
     }
-    div.core{
-      padding: 20px;
-    }
+    
 }
 
 @media only screen and (min-device-width:0)and (max-device-width:480px){
     div.img{
-        display: block;  
+        display: block;
+        align-items: center;
+
     }
-    
+    img{ 
+    width: 35vw;
+    height:35vw;
+    padding-left: 50px;
+}
    
 }
