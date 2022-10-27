@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        li :hover{
+            background-color: rgb(209, 66, 66);
+        }
+        .SPACE{
+            padding-right: 20PX;
+        }
+        #sec2{
+           background-color: rgb(229, 186, 134);
+           height: 600px;
+        }
+        #textS1{
+            color: white;
+            text-align: center;
+            margin-top: 17vw;
+        }
+        .textS2{
+            color: black;
+            text-align: center;
+        }
+        #core{
+             background-image: url(food2.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 450px;
+        }
+        #cardsDiv{
+            padding: 30px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 15px;
+            justify-content: center;
+        }
+        .item{
+            
+            height: 400px;
+            width: 400px;
+            background-color: antiquewhite;
+        }
+        .sImg{
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+<div  id="core" class="container-fluid" >
+    
+    <DIv class="container-fluid">
+        <nav class="navbar navbar-dark navbar-expand-lg " >
+            <img src="loc.png">
+            <a class="navbar-brand" href="#">Grill</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container" style="padding-left:800px ;">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item SPACE">
+                  <a class="nav-link active " aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown SPACE">
+                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ABOUT US
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                <li class="nav-item SPACE">
+                  <a class="nav-link" href="#">SERVICES</a>
+                </li>
+                <li class="nav-item SPACE">
+                    <a class="nav-link" href="#cardsDiv">OFFER</a>
+                  </li>
+                <li class="nav-item SPACE">
+                    <a class="nav-link" href="#">GALLARY</a>
+                  </li>
+                <li class="nav-item SPACE">
+                  <a class="nav-link" href="#">PRICES</a>
+                </li>
+                <li class="nav-item SPACE">
+                    <a class="nav-link" href="#">CONTACT</a>
+                  </li>
+                
+              </ul>
+              
+            </div>
+        
+        </nav>
+        <div id="textS1">
+            <h1 style="font-size: 60px;">BEST BBQ !</h1>
+            <p>Git The Best Tasty Food </p>
+        </div>
+    </DIv></div>
+    <!--Section 2-->
+    <div id="sec2">
+        <h2 class="textS2" style="font-size: 25px;padding-top: 35px;">SINGATURE DISHES</h2>
+        <p class="textS2" style="padding-left: 150px;padding-right: 150px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+        <!--cards-->
+        <div id="cardsDiv" >
+            <div class="item"><img class="sImg"src="food.jpg" >
+            <div style="height:20px ;margin-top: 6PX;"><h2  style=" color: white;text-align: center;background-color:(0, 0, 0, 0.234);">vegetables</h2></div></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        
+    
+    
+    </div>
+</body>
+</html>
